@@ -6,7 +6,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter} from 'react-router-dom';
 import { Provider } from 'react-redux';
-import { persistor, store } from './Redux/store';
+import { persistor, store } from './Redux/Store';
 import { PersistGate } from 'redux-persist/integration/react';
 // import ContextProvider from './Context/ContextProvider';
 
